@@ -68,7 +68,7 @@ iframe{
 
 .about {
 	display: block;
-	margin:1em;
+	margin:1.5em;
 	text-align: left;
 }
 
@@ -76,7 +76,17 @@ iframe{
 	text-decoration: none;
 }
 
+div p {
+	color: wheat;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-size: 3em;
+}
+
 #contributors li {
 	color: wheat;
 	text-decoration: none;
+	font-size: 1.5em;
 }
