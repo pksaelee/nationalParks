@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>National Parks</title>
+        <title>Clickable National Parks</title>
         <style>
             html, body, #viewDiv {
                 padding: 0;
@@ -41,7 +41,7 @@
                 
                 //adds legend
                 view.when(function(){
-                    var featureLayer = webmap.layers.getItemAt(1);
+                    var featureLayer = webmap.layers.getItemAt(3);
                     var legend = new Legend({
                         view: view,
                         layerInfos: [{
