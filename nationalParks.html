@@ -20,10 +20,10 @@
             require([
                 "esri/WebMap",
                 "esri/views/MapView",
-                //"esri/widgets/Legend",
+                "esri/widgets/Legend",
                 "esri/widgets/Popup",
                 "dojo/domReady!"
-            ], function(WebMap, MapView, /*Legend,*/ Popup) {
+            ], function(WebMap, MapView, Legend) {
 
                 //grabs the code from web
                 var webmap = new WebMap({
@@ -38,20 +38,20 @@
                     map: webmap
                 });
                 
-                /*
+                
                 //adds legend
                 view.when(function(){
-                    var featureLayer = webmap.layers.getItemAt(0);
+                    var featureLayer = webmap.layers.getItemAt(1);
                     var legend = new Legend({
                         view: view,
                         layerInfos: [{
                             layer: featureLayer,
-                            title: "Legend"
+                            title: "National Park Border"
                         }]
                     });
                     view.ui.add(legend, "bottom-right");
                 });
-                */
+                
             });
             
         </script>
