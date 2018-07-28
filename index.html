@@ -18,29 +18,43 @@
         
         <script>  
             require([
-
                 "esri/WebMap",
                 "esri/views/MapView",
+                "esri/widgets/Legend",
                 "dojo/domReady!"
+            ], function(WebMap, MapView, Legend) {
 
-            ], function(WebMap, MapView) {
-
+                //grabs the code from web
                 var webmap = new WebMap({
                     portalItem: {
                     id: "654dd2e38b7f45aa8787b8d6c30606b4"
                     }
                 });
 
+                //displays the map
                 var view = new MapView({
                     container: "viewDiv",
                     map: webmap
+                });
+                
+                //adds legend
+                view.when(function(){
+                    var featureLayer = webmap.layers.getItemAt(0);
+                    var legend = new Legend({
+                        view: view,
+                        layerInfos: [{
+                            layer: featureLayer,
+                            title: "Park Names"
+                        }]
+                    });
+                    view.ui.add(legend, "bottom-right");
                 });
             });
             
         </script>
     </head>
 
-    <body>
+    <body class="calcite">
         <div id="viewDiv"></div>
     </body>
 </html>
