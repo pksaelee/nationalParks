@@ -23,7 +23,7 @@ body{
     overflow: hidden;
     background-color: #670a0a;
 }
-.topbar li{
+.topbar li, .midbar li{
 	float: left;
 }
 .topbar li a, .dropbtn{
@@ -41,7 +41,7 @@ li a:hover, .dropdown:hover .dropbtn{
 .first-dropdown{
 	display: none;
 	position: absolute;
-	background-color:#AB4E52;
+	background-color:#670a0a;
 	min-width: 100px;
 	z-index: 1;
 }
@@ -52,11 +52,12 @@ li a:hover, .dropdown:hover .dropbtn{
 	text-align: center;
 }
 .first-dropdown a:hover{
-	background-color: #c48186;
+	background-color: #AB4E52;
 }
 .dropdown:hover .first-dropdown{
 	display:block;
 }
+
 
 iframe{
 	width: 100%;
