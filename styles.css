@@ -1,0 +1,40 @@
+body{
+/*	background-color:#228b22;
+}*/
+background:linear-gradient(180deg,#228b22 50%, #00ff00);
+height: 100%;
+margin:0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #670a0a;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center; 
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #AB4E52;
+}
+
+iframe{
+	width: 100%;
+	height: 90vh;
+	margin: 0 auto;
+	position: relative;
+	float: center;
+
+}
