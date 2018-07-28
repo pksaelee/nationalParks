@@ -23,7 +23,7 @@
                 //"esri/widgets/Legend",
                 "esri/widgets/Popup",
                 "dojo/domReady!"
-            ], function(WebMap, MapView, Legend, Popup) {
+            ], function(WebMap, MapView, /*Legend,*/ Popup) {
 
                 //grabs the code from web
                 var webmap = new WebMap({
@@ -52,6 +52,7 @@
                     view.ui.add(legend, "bottom-right");
                 });
                 */
+                view.on("Pointer-click")
             });
             
         </script>
