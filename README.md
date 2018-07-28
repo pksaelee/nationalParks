@@ -1,2 +1,7 @@
 # nationalParks
-# By the one and only Peanut Butter and Date Jellys
+Generic National Parks Map Application
+
+## Contributors
+* Derick Tseng
+* Precious Saelee
+* Bryan Pyo
