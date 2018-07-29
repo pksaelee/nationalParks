@@ -1,5 +1,5 @@
 # nationalParks
-Generic National Parks Map Application
+National Parks Map Application using HTML and ArcGIS
 
 ## Contributors
 * Derick Tseng
