@@ -5,3 +5,4 @@ Generic National Parks Map Application
 * Derick Tseng
 * Precious Saelee
 * Bryan Pyo
+* Justin Khou
