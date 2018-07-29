@@ -16,17 +16,17 @@ body{
 
 }
 
-ul{
+.topbar{
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #670a0a;
 }
-li{
+.topbar li{
 	float: left;
 }
-li a, .dropbtn{
+.topbar li a, .dropbtn{
 	display: block;
 	color: white;
 	text-align: center; 
@@ -64,5 +64,19 @@ iframe{
 	margin: 0 auto;
 	position: relative;
 	float: center;
+}
 
+.about {
+	display: block;
+	margin:1em;
+	text-align: left;
+}
+
+#contributors{
+	text-decoration: none;
+}
+
+#contributors li {
+	color: wheat;
+	text-decoration: none;
 }
