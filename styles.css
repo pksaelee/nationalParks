@@ -60,11 +60,22 @@ li a:hover, .dropdown:hover .dropbtn{
 
 
 iframe{
-	width: 100%;
+	/*width: 100%;
 	height: 100vh;
 	margin: 0 auto;
-	position: relative;
-	float: center;
+	position: center;
+	float: center;*/
+	position:fixed; 
+	top:45px; 
+	left:0px; 
+	bottom:0px; 
+	right:0px; 
+	width:100%; 
+	height:100%; 
+	border:none; 
+	margin:0; 
+	padding:0; 
+	overflow:hidden;
 }
 
 .about {
